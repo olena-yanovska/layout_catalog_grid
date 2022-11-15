@@ -4,6 +4,7 @@
   justify-items: center;
 
   gap: 20px;
+  padding: 30px;
   margin: 0 auto;
 
   max-width: 1024px;
@@ -27,19 +28,11 @@
   }
 
   &__card {
-
-    // justify-content: center;
-    // align-items: center;
     text-align: center;
-    line-height: 300px;
-    width: 200px;
-    height: 300px;
+    line-height: $card-heigh;
+    width: $card-width;
+    height: $card-heigh;
     border: 1px solid #ccc;
     border-radius: 5px;
-    // margin-bottom: 48px;
   }
-
-  // &__card:not(:nth-child(4n)) {
-  //   margin-right: 48px;
-  // }
 }
